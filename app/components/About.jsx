@@ -3,7 +3,7 @@ var React = require('react');
 var About = (props) => { //stateless functional component for any component that doesn't maintain a state i.e only returns
     return(
       <div>
-        <h1 className="text-center">About</h1>
+        <h1 className="text-center page-title">About</h1>
         <p>
           This is a weather application built using React and OpenWeatherMap. I have built this following the complete React Web app Developer Course.
         </p>
