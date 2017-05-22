@@ -1,10 +1,10 @@
 var React = require('react');
 
-var WeatherMessage = ({temp, location}) => { 
+var WeatherMessage = ({temp, location}) => {
   // var {temp,location} = props;
   return (
     <div>
-      <h3>It is {temp} in {location}.</h3>
+      <h3 className="text-center">It is {temp} degrees celsius in {location}.</h3>
     </div>
   );
 };
