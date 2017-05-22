@@ -12,7 +12,7 @@ var About = (props) => { //stateless functional component for any component that
     return(
       <div>
         <h3>About</h3>
-        <p>Welcome to about page!</p>
+        <p>Welcome to the about page!</p>
       </div>
     )
 };
